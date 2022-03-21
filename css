@@ -1,0 +1,120 @@
+ <style>
+        .container {
+            background: url(https://images.unsplash.com/photo-1588941288434-35b689c99a60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat;
+            background-size: cover;
+            display: grid;
+            /* border: 2PX solid brown; */
+            margin: -83px;
+            padding: 117px;
+            display: flex;
+            height: 435px;
+            width: 1100px;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .item {
+            border: 2px solid rgb(240, 228, 207);
+            align-self: center;
+            justify-items: center;
+            height: 544px;
+            width: 409px;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, .15);
+            backdrop-filter: blur(5px);
+            /* overflow: scroll; */
+            text-align: center;
+
+        }
+
+        .logo {
+            display: inline-block;
+            /* border: 2px solid black; */
+            align-self: flex-start;
+            font-family: 'Lobster', cursive;
+            margin: -3px;
+            margin-top: 2px;
+            padding-left: 66px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            box-shadow: 0 0 1rem 0 rgb(0 6 4 / 91%);
+            border-radius: 46px;
+            background-color: rgba(255, 255, 255, 0.493);
+            backdrop-filter: blur(10px);
+            color: #06456ae8;
+        }
+
+
+        ul li {
+            margin: 12px;
+            padding: 9px;
+            font-family: 'Quintessential', cursive;
+            color: rgb(4, 5, 5);
+            text-align: left;
+            background-color: rgb(25 26 26 / 16%);
+            text-shadow: #06456ae8;
+            font-size: smaller;
+        }
+
+        ul li span {
+            background: #16020247;
+            float: right;
+            margin: -8px;
+            padding: 9px;
+
+        }
+
+        ul li span:hover {
+            cursor: pointer;
+        }
+
+        */ .note :hover {
+            color: black;
+        }
+
+        ul li:hover {
+            background: rgb(197, 193, 193);
+            cursor: pointer;
+        }
+
+        .item button :hover {
+            background: #06456ae8;
+        }
+
+
+        /* .right {
+            color: rgb(0, 8, 8);
+            /* border: solid brown; */
+        /* position: absolute;
+            align-self: flex-end;
+            right: 9px;
+            top: 8px;
+            display: inline-block;
+            box-shadow: 0 0 1rem 0 rgb(0 6 4 / 91%);
+            border-radius: 46px;
+            background-color: rgba(255, 255, 255, 0.493);
+            backdrop-filter: blur(10px);
+            color: #eaf0f3e8;
+            border-radius: 2px; */
+
+        /* } */
+
+        .add {
+            margin: 2px;
+            padding: 2px;
+            background: #3a353552;
+            box-shadow: rgb(77 102 94 / 21%);
+
+        }
+
+        
+
+        #task {
+            background-color: rgb(240, 228, 215);
+            color: black;
+            border-radius: 4px;
+        }
+    </style>
